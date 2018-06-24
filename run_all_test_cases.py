@@ -47,3 +47,5 @@ if __name__ == '__main__':
     HTMLTestRunner(stream=file, verbosity=1, title="博为峰测试报告", description="测试环境").run(suite)
 
     send_mail(f_path)
+
+
